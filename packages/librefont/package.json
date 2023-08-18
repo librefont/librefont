@@ -1,0 +1,37 @@
+{
+  "name": "librefont",
+  "version": "0.0.0",
+  "description": "Programmatically create font toolchains, powered by librefont.",
+  "main": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "prepack": "unbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librefont/librefont.git"
+  },
+  "keywords": [
+    "font",
+    "librefont"
+  ],
+  "author": {
+    "name": "Libre Font",
+    "email": "official@librefont.com",
+    "url": "https://www.librefont.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/librefont/librefont/issues"
+  },
+  "homepage": "https://github.com/librefont/librefont#readme"
+}

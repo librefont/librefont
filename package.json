@@ -1,0 +1,38 @@
+{
+  "name": "@librefont/librefont",
+  "version": "0.0.0",
+  "description": "Programmatically create font toolchains, powered by librefont.",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r prepack",
+    "check": "rome check . --apply-unsafe && rome format . --write",
+    "format": "prettier --write --list-different . --ignore-path .gitignore",
+    "postinstall": "githooks install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/librefont/librefont.git"
+  },
+  "keywords": [
+    "font",
+    "librefont"
+  ],
+  "author": {
+    "name": "Libre Font",
+    "email": "official@librefont.com",
+    "url": "https://www.librefont.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/librefont/librefont/issues"
+  },
+  "homepage": "https://github.com/librefont/librefont#readme",
+  "devDependencies": {
+    "@funish/githooks": "edge",
+    "@funish/githooks-config": "edge",
+    "@funish/lint": "edge",
+    "prettier": "3.0.2",
+    "rome": "12.1.3",
+    "unbuild": "1.2.1"
+  }
+}
