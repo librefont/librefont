@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "paths": {
+      "librefont": ["./packages/librefont/src/index.ts"],
+      "@librefont/converter": ["./packages/converter/src/index.ts"]
+    }
+  }
+}
