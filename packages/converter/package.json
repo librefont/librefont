@@ -35,6 +35,6 @@
   },
   "homepage": "https://github.com/librefont/librefont#readme",
   "dependencies": {
-    "fontmin": "1.0.1"
+    "fontmin": "1.1.0"
   }
 }
